@@ -32,7 +32,7 @@ const Create = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://github.com/R2602/Spring_application.git/post", {
+    fetch("https://spring-application-y1xb.onrender.com/post", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",
