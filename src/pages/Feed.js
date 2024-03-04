@@ -19,11 +19,11 @@ const Feed = () => {
   //
   useEffect(() => {
     const fetchPosts = async () => {
-      const response = await axios.get(`https://github.com/R2602/Spring_application.git/posts/${query}`);
+      const response = await axios.get(`https://spring-application-y1xb.onrender.com/posts/${query}`);
       setPost(response.data);
     };
     const fetchInitialPosts = async () => {
-        const response = await axios.get(`https://github.com/R2602/Spring_application.git/allPosts`);
+        const response = await axios.get(`https://spring-application-y1xb.onrender.com/posts`);
         console.log(response);
         setPost(response.data);
     }
